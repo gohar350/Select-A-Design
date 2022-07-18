@@ -1,0 +1,95 @@
+#clr {
+    height: 51em;
+    background-color: bisque;
+    display: flex;
+  }
+  body{
+    margin: 0;
+  }
+  mark {
+    background-color: bisque;
+    color: red;
+  }
+  .vertical {
+    /*Left Border*/
+    border-left: 6px solid black;
+    height: 51em;
+    position:absolute;
+    left: 1%;
+    /*Rigt Border*/
+    border-right: 6px solid black;
+    height: 51em;
+    position:absolute;
+    right: 1%;
+
+}
+
+.dsgn{
+
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 35em;  
+    padding: 80px;  
+
+}
+
+.dsgn h1{
+ display: flex;
+ justify-content: center;
+}
+.dsgn h2{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+   }
+
+.dsgn p{
+ font-style: italic;
+ text-align: center;
+
+}
+.hor1{
+    /*horizontal line*/
+    border-top: 6px solid black;
+    width: 25em;
+    position:absolute;
+    top: 28%;
+    left:38%
+}
+
+.hor2{
+    /*horizontal line*/
+    border-top: 6px solid black;
+    width: 25em;
+    position:absolute;
+    top: 36%;
+    left:38%
+}
+
+.hor3{
+    /*horizontal line*/
+    border-top: 6px solid black;
+    width: 25em;
+    position:absolute;
+    top: 58%;
+    left:38%
+}
+
+.hor4{
+    /*horizontal line*/
+    border-top: 6px solid black;
+    width: 25em;
+    position:absolute;
+    top: 64%;
+    left:38%
+}
+
+#Fq {
+    display: flex;
+    justify-content: center;
+}
+#Fq p{
+    padding-left:1em ;
+    font-size: medium;
+    
+}
